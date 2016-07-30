@@ -1,0 +1,251 @@
+@media (max-width: 768px){
+    .SkillHeader{
+        padding-left: 70px !important;
+    }
+    .SkillData{
+        padding-left: 80px !important;
+    }
+}
+
+@media (max-width: 414px){
+    .heading{
+        font-size: 30px !important;  
+    }
+    .Masters, .BE, .SkillHeader, .SkillData, .ExpHeader, .ExpDesc, .ExpData, .ProjectLanguage, .ProjectHeader, .ProjectData{
+        font-size: 22px !important;
+    }     
+    .Masters, .BE, .SkillHeader, .SkillData{
+        padding-left: 30px !important;
+    }  
+    .ExpData{
+        text-align: left !important;
+    }
+    .ProjectHeader, .ProjectData{
+        padding-left: 25px !important;
+    }    
+}
+
+@media (max-width: 435px){
+    .heading{
+        font-size: 30px !important;  
+    }
+    .Masters, .BE, .SkillHeader, .SkillData, .ExpHeader, .ExpDesc, .ExpData, .ProjectLanguage, .ProjectHeader, .ProjectData{
+        font-size: 22px !important;
+    }     
+    .Masters, .BE, .SkillHeader, .SkillData{
+        padding-left: 30px !important;
+    }
+    .ExpDesc{
+        padding-left: 10px !important;
+    }
+    .ExpData{
+        text-align: left !important;
+    }
+    .ProjectHeader, .ProjectData{
+        padding-left: 25px !important;
+    }    
+}
+
+@media (max-width: 375px){
+    .heading{
+        font-size: 25px !important;  
+    }
+    .Masters, .BE, .SkillHeader, .SkillData, .ExpHeader, .ExpDesc, .ExpData, .ProjectLanguage, .ProjectHeader, .ProjectData{
+        font-size: 20px !important;
+    }  
+}
+
+.navbar {
+    height:65px !important;
+    transition: top 0.2s ease-in-out;
+}
+.navbar-brand {                
+    color:#009688;
+    font-family: 'Dosis', cursive;
+    font-size: 30px;
+    padding-top: 2px;
+}
+.navbar-brand img{
+    height:60px; 
+}
+#main-content{
+    overflow-y: scroll;
+    font-family: 'Poiret One', cursive;
+    margin-top:65px;
+    color:white;
+    background: url('Images/blackboard.jpg') no-repeat fixed;
+    min-height: 100%;
+    background-size: cover;
+    
+}
+.nav>li>a:hover{
+    background-color: #DCEDC8;
+}
+.icon{
+    color:#009688;
+}
+.icon-bar{
+     background-color:#009688;    
+}
+.nav a:active {
+    border-bottom: 5px solid #009688;
+}
+.fa-github:hover {
+    color: #9CCC65;
+}
+.fa-linkedin-square:hover {
+    color: #1565C0;
+}
+.fa-phone:hover {
+    color: #CCFF90;
+}
+.nav-up {
+    top: -65px;
+}
+.content
+{
+    padding-left:2%;
+}
+.heading{
+    text-decoration: underline;
+    text-align: center;
+    color: #64B5F6;
+    font-weight:bolder;
+    text-transform: uppercase;
+    font-size: 35px;
+    padding-top:20px;
+    padding-bottom:40px;
+}
+#education {
+    padding-top:30px;
+}
+.EducationSchool{
+    color: #FFD54F;
+    font-weight:900;
+}
+.EducationDegree{
+    text-decoration: underline;
+    font-weight:900;
+    color:#CE93D8;
+}
+.Masters{
+    font-size:25px;
+    padding-left: 100px;
+    padding-bottom:5px;
+}
+.BE{
+    font-size:25px;
+    padding-left: 100px;    
+    padding-bottom:5px;
+}
+#skills {
+    padding-top:30px;
+    color: black; 
+}
+.SkillHeader{
+    padding-left:100px;
+    font-size:25px;
+    width:auto;
+    font-weight:900;    
+    color:#CE93D8;
+}
+.SkillData{
+    color:white;     
+    font-size:25px;
+    width:auto;
+}
+.SkillLink{
+    color: #CE93D8;
+    text-decoration: none;
+}
+.SkillDataLink{
+    color: white;
+    text-decoration: none;    
+}
+a.SkillLink:hover {
+    text-decoration: none;
+    color: grey;
+}
+a.SkillDataLink:hover {
+    text-decoration: none;
+    color: grey;
+}
+#experience {
+    padding-top:30px;
+}
+.ExpHeader:focus {
+    border: solid #CE93D8;
+    color: #CE93D8;
+}
+.ExpHeader{
+    /*button-settings*/
+    background: rgba(54, 25, 25, 0);
+    border-style: solid;
+    border-color: #CE93D8;
+    margin-bottom: 10px;
+
+    color: #CE93D8;
+    font-weight:900;
+    font-size:25px;
+    text-align: center;
+}
+.ExpDesc{
+    color:#FFD54F; 
+    font-weight:900;
+    font-size:25px;
+    text-align: center;
+}
+.ExpData{
+    font-size:25px;
+    color:white;
+    text-align: justify;
+    padding-left:50px;
+} 
+#projects {
+    padding-top:30px;
+    color: white; 
+}
+.ProjectLanguage{
+    color:#CE93D8; 
+    font-weight:900;
+    font-size:25px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    text-align: center;
+    text-decoration: underline;
+}
+.ProjectHeader:focus {
+    border: solid #FFD54F;
+    color: #FFD54F;
+}
+.ProjectHeader{
+    /*button-settings*/
+    background: rgba(54, 25, 25, 0);
+    border-style: solid;
+    border-color: #FFD54F;
+    margin-bottom: 10px;
+    white-space: normal;
+
+    color:#FFD54F; 
+    font-weight:900;
+    font-size:25px;
+}
+.ProjectData{
+    font-size:25px;
+    color:white;
+    padding-bottom: 40px;
+    padding-left:50px;
+}
+a.ProjectLink{
+    color: #FFD54F;   
+}
+hr { 
+    background-color: white; height: 2px; border: 5; width:50%;
+}
+#contact {
+    padding-top:20px;
+    padding-bottom: 40px;
+    color: white;
+    text-align: center;    
+}
