@@ -10,252 +10,304 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>  
   <script src="https://use.fontawesome.com/0f92278437.js"></script>
-  <script src="scripts/jquery.easing.1.3.js"></script>
+  <!-- <script src="scripts/jquery.easing.1.3.js"></script> -->
   <script src="scripts/base.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Dosis|Poiret+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Dosis|Harmattan|Poiret+One|Shadows+Into+Light+Two" rel="stylesheet">
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
-
-    <nav class="navbar navbar-fixed-top nav-down">
-        <div class="container-fluid">
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#education">
-                    <span><img src="Images/brandImg.gif"/></span> Vikhyat Gupta
-                </a>
-            </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav">
-                    
-                    <li><a class="page-scroll" href="#education"><i class="fa fa-graduation-cap fa-2x icon"></i></a></li>
-                    <li><a class="page-scroll" href="#skills"><i class="fa fa-wrench fa-2x icon"></i></a></li>
-                    <li><a class="page-scroll" href="#experience"><i class="fa fa-suitcase fa-2x icon"></i></a></li>
-                    <li><a class="page-scroll" href="#projects"><i class="fa fa-code fa-2x icon"></i></a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a class="page-scroll" href="https://docs.google.com/uc?authuser=0&id=0B4YyhxxUHvkISFF1aUJ6TWM0MnM&export=download" target="_blank"><i class="fa fa-file fa-2x icon" aria-hidden="true"></i></a></li>
-                    <li><a class="page-scroll" href="https://github.com/vikhyatgupta" target="_blank"><i class="fa fa-github github-icon fa-2x icon" aria-hidden="true"></i></a></li>
-                    <li><a class="icon-holder" href="https://www.linkedin.com/in/vikhyatgupta" target="_blank"><i class="fa fa-linkedin-square fa-2x icon" aria-hidden="true"></i></a></li>
-                    <li><a class="page-scroll" href="#contact"><i class="fa fa-phone fa-2x icon" aria-hidden="true"></i></a></li>
-                    <li><a class="page-scroll" href="#contact"><i class="fa fa-envelope fa-2x icon" aria-hidden="true"></i></a></li>
-                </ul>
-            </div>
-        </div>
+	<nav class="navbar navbar-fixed-top nav-down">
+		<div class="container-fluid">
+		    <div class="navbar-header page-scroll">
+		        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		        </button>
+		        <a class="navbar-brand page-scroll" href="#education">
+		            <span><img src="Images/brandImg.gif"/></span>
+		        </a>
+		    </div>
+		    <div class="collapse navbar-collapse" id="myNavbar">
+		        <ul class="nav navbar-nav">
+		            <li><a class="page-scroll" href="#education" data-toggle="tooltip" title="Education" data-placement="bottom"><i class="fa fa-graduation-cap fa-2x icon" id="ed"><h3 class="menu-text">Education</h3></i></a></li>
+		            <li><a class="page-scroll" href="#skills" data-toggle="tooltip" title="Skill Sets" data-placement="bottom"><i class="fa fa-wrench fa-2x icon" id="skls"><h3 class="menu-text">Skills</h3 class="menu-text"></i></a></li>
+		            <li><a class="page-scroll" href="#experience" data-toggle="tooltip" title="Work Experience" data-placement="bottom"><i class="fa fa-suitcase fa-2x icon" id="exp"><h3 class="menu-text">Experience</h3></i></a></li>
+		            <li><a class="page-scroll" href="#projects" data-toggle="tooltip" title="Academic Projects" data-placement="bottom"><i class="fa fa-code fa-2x icon" id="proj"><h3 class="menu-text">Academic Projects</h3></i></a></li>
+		        </ul>
+		        <ul class="nav navbar-nav navbar-right">
+		            <li><a class="page-scroll" href="https://drive.google.com/open?id=0B4YyhxxUHvkIUVFFRmduSEFwVzlrY2Z2MEN3eVRudG5iSHVv" target="_blank" data-toggle="tooltip" title="Resume" data-placement="bottom"><i class="fa fa-file fa-2x icon" aria-hidden="true"><h3 class="menu-text">Resume</h3></i></a></li>
+		            <li><a class="page-scroll" href="https://github.com/vikhyatgupta" target="_blank" data-toggle="tooltip" title="Github Profile" data-placement="bottom"><i class="fa fa-github github-icon fa-2x icon" aria-hidden="true"><h3 class="menu-text">Github Profile</h3></i></a></li>
+		            <li><a class="icon-holder" href="https://www.linkedin.com/in/vikhyatgupta" target="_blank" data-toggle="tooltip" title="LinkedIn Profile" data-placement="bottom"><i class="fa fa-linkedin-square 	fa-2x icon" aria-hidden="true"><h3 class="menu-text">LinkedIn Profile</h3></i></a></li>
+		            <li><a class="page-scroll" href="#contact" data-toggle="tooltip" title="Phone" data-placement="bottom"><i class="fa fa-phone fa-2x icon" aria-hidden="true"><h3 class="menu-text">Phone</h3></i></a></li>
+		            <li><a class="page-scroll" href="#contact" data-toggle="tooltip" title="Email" data-placement="bottom"><i class="fa fa-envelope fa-2x icon" aria-hidden="true"><h3 class="menu-text">Email</h3></i></a></li>
+		            <li></li>
+		        </ul>
+		    </div>
+		</div>
     </nav>
 
-<div id="main-content" class="container-fluid">    
-    <div id="education" class="content">
-        <div class="row">
-            <div class="col-sm-12">
-                <h1 class="heading">Education</h1>
-            </div> 
-        </div>
-        <div class="row">
+  	<div class="jumbotron text-center" id="introduction">
+  	  <h1>Vikhyat Gupta</h1> 
+  	  <p>Software Developer</p> 
+  	</div>
+
+    <div id="education" class="container-fluid">
+	  	<div>
+	  	  <h2 class="heading">Education</h2>
+	  	</div>
+        <div class="row content">
             <div class="col-sm-6">
-                <p class="Masters EducationDegree">Masters</p>
-                <p class="Masters EducationSchool">University of Bridgeport</p>
-                <p class="Masters" style ="font-style: italic;">Computer Science</p>
-                <p class="Masters">GPA: 3.63 / 4</h3>
-                <p class="Masters">(Jan '15 - Dec '16)</p>
+                <h3 class="Masters EducationDegree">Masters</h3>
+                <h3 class="Masters EducationSchool">University of Bridgeport</h3>
+                <h3 class="Masters" style ="font-style: italic;">Computer Science</h3>
+                <h3 class="Masters">GPA: 3.67 / 4</h3>
+                <h3 class="Masters">(Jan '15 - Dec '16)</h3>
             </div>
             <div class="col-sm-6">
-                <p class="BE EducationDegree">Bachelors</p>
-                <p class="BE EducationSchool">Shri G. S. Inst. of Tech. and Science</p>
-                <p class="BE" style ="font-style: italic;">Information Technology</p>
-                <p class="BE">GPA: 7.4 / 10</p>
-                <p class="BE">(Aug '10 - June '14)</p>
+                <h3 class="BE EducationDegree">Bachelors</h3>
+                <h3 class="BE EducationSchool">Shri G. S. Inst. of Tech. and Science</h3>
+                <h3 class="BE" style ="font-style: italic;">Information Technology</h3>
+                <h3 class="BE">GPA: 7.4 / 10</h3>
+                <h3 class="BE">(Aug '10 - June '14)</h3>
             </div>                        
         </div>
     </div>
-    
-    <div id="skills" class="content">
-        <div class="row">
-            <div class="col-sm-12">
-                <h1 class="heading">Skill Set</h1>
-            </div> 
-        </div>
-        <div class="row">
-            <div class="col-sm-3 col-md-5">
-                <p class="SkillHeader">Programming Languages:</p>
-            </div>
-            <div class="col-sm-9 col-md-7">
-                <p class="SkillData">C, C++,<a class="SkillDataLink" href="#DotNet"> C#</a>, <a class="SkillDataLink" href="#Java"> Java</a>, <a class="SkillDataLink" href="Python"> Python</a>, SQL</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-3 col-md-5">
-                <p class="SkillHeader"><a class="SkillLink" href="#BigData">Big Data Technologies:</a></p>
-            </div>
-            <div class="col-sm-9 col-md-7">
-                <p class="SkillData"><a class="SkillDataLink" href="#BigData">Hadoop, MapReduce, Sqoop, Pig, Hive, HBase, Oozie</a></p>
-            </div>
-        </div>
-        <div class="row">            
-            <div class="col-sm-3 col-md-5">
-                <p class="SkillHeader"><a class="SkillLink" href="#WhiteRoom">Web Technologies:</a></p></p>
-            </div>
-            <div class="col-sm-9 col-md-7">
-                <p class="SkillData"><a class="SkillDataLink" href="#WhiteRoom">HTML, CSS, JavaScript, ASP.NET</a></p>
-            </div>
-        </div>
-        <div class="row">            
-            <div class="col-sm-3 col-md-5">
-                <p class="SkillHeader">Databases:</p>
-            </div>
-            <div class="col-sm-9 col-md-7">
-                <p class="SkillData">Oracle, Postgresql, MS SQL Server</p>
-            </div>           
-        </div> 
-    </div>
-    
-    <div id="experience" class="content">
-        <div class="row">
-            <div class="col-sm-12">
-                <h1 class="heading">Work Experience</h1>
-            </div> 
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
-                    <button class="btn ExpHeader center-block"  data-toggle="collapse" data-target="#WhiteRoom">White Room Trading Ltd.</button>
-            </div>
-             <div class="col-sm-12">
-                    <p class="ExpDesc">.NET Developer Intern<span style="font-style: italic;">(June 2016 - Aug 2016)</span></p>
-            </div>
-            <div class="collapse" id="WhiteRoom">
-                <div class="col-md-11">
-                        <p class="ExpData">- Assisted with the redevelopment of an ASP.NET Web Forms finance application into an ASP.NET MVC   application for a medium sized funds management company. The application is used in production by over 1000 investors</   p>
-                </div>
-                <div class="col-md-11">
-                        <p class="ExpData">- Used Kendo UI for the Views/UI</p>
-                </div>
-            </div>
-        </div>
-        </br>
-        </br>
-        <div class="row">        
-            <div class="col-sm-12">
-                    <button class="btn ExpHeader center-block"  data-toggle="collapse" data-target="#Capgemini">CAPGEMINI</button>
-            </div>
-             <div class="col-sm-12">
-                    <p class="ExpDesc">Software Engineer <span style="font-style: italic;">(Sept 2014 - Dec 2014)</span></p>
-            </div>
-            <div class="collapse" id="Capgemini">
-                <div class="col-md-11">
-                        <p class="ExpData">- Underwent training in Java and developed several relevant projects</p>
-                </div>
-                <div class="col-md-11">
-                        <p class="ExpData">- Handled a finance related PL/SQL project. Used Oracle Apps to design and update forms</p>
-                </div>
-                <div class="col-md-11">
-                        <p class="ExpData">- Resolved various PL/SQL debugging issues dealing with retrieval of data</p>
-                </div>
-            </div>            
-        </div>    
-    </div>
-    
-    <div id="projects" class="content">
-        <div class="row">
-            <div class="col-sm-12">
-                <h1 class="heading">Projects</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <p class="ProjectLanguage" id="DotNet">.NET/C# </p>
-            </div>
-            <div class="col-sm-12">
-                <button class="btn ProjectHeader center-block"  data-toggle="collapse" data-target="#Banking">Banking Application</button>
-            </div>
-            <div class="col-md-11 collapse" id="Banking">
-                <p class="ProjectData">Developed online banking application using ASP.Net MVC5 (with proper Design Patterns) and Couchbase Memcached API</p>
-            </div>
-            <div class="col-sm-12">
-                    <button class="btn ProjectHeader center-block"  data-toggle="collapse" data-target="#WinForms">Student Registration App/ Bus Management System</button>
-            </div>
-            <div class="col-md-11 collapse" id="WinForms">
-                    <p class="ProjectData">Designed and developed a Windows Form Application, using S.O.L.I.D. principles for extensibility</p>
-            </div>
-        </div>    
-        <div class="row">
-            <div class="col-sm-12">
-                    <p class="ProjectLanguage" id="BigData">Big Data: MapReduce/ Hadoop/ Pig/ Hive</p>
-            </div>
-            <div class="col-sm-12">
-                    <button class="btn ProjectHeader center-block"  data-toggle="collapse" data-target="#SimpliLearn">Simplilearn Big Data Hadoop Proof of Concept</button>
-            </div>
-            <div class="col-md-11 collapse" id="SimpliLearn">
-                    <p class="ProjectData">Analyzed U.S. Department of Labor data, UN World Bank’s Gender-Statistics, UN World Bank’s World Development Indicators data using Hive and Pig to identify various motivators against varied parameters</p>
-            </div>
-            <div class="col-sm-12">
-                    <button class="btn ProjectHeader center-block"  data-toggle="collapse" data-target="#FoodData">Data Mining From Unstructured Database Using MapReduce</button>
-            </div>
-            <div class="collapse" id="FoodData">
-                <div class="col-md-11">
-                        <p class="ProjectData">- Gathered information from an unstructured database and also increased database execution speed</p>
-                </div>
-                <div class="col-md-11">
-                        <p class="ProjectData">- Provided a distributed file system that stored data on the computer nodes, which   provided very high aggregate bandwidth across the cluster</p>
-                </div>
-            </div>
-        </div> 
-        <div class="row">
-            <div class="col-sm-12">
-                    <p class="ProjectLanguage" id="python">Python</p>
-            </div>
-            <div class="col-sm-12">
-                    <button class="btn ProjectHeader center-block"  data-toggle="collapse" data-target="#Minesweeper">Minesweeper</button>
-            </div>
-            <div class="col-md-11 collapse" id="Minesweeper">
-                    <a class="ProjectLink" href="https://github.com/vikhyatgupta/minesweeper-game" target="_blank"><p class="ProjectData">Designed the Minesweeper game along with the GUI</p></a>
-            </div>
-            <div class="col-sm-12">
-                    <button class="btn ProjectHeader center-block"  data-toggle="collapse" data-target="#Tic-tac-toe">Tic-Tac-Toe</button>
-            </div>
-            <div class="col-md-11 collapse" id="Tic-tac-toe">
-                    <a class="ProjectLink" href="https://github.com/vikhyatgupta/tic-tac-toe" target="_blank"><p class="ProjectData">Designed the Tic-Tac-Toe game</p></a>
-            </div>            
-        </div> 
-        <div class="row">
-            <div class="col-sm-12">
-                    <p class="ProjectLanguage" id="java">Java</p>
-             </div>
-            <div class="col-sm-12">
-                    <button class="btn ProjectHeader center-block"  data-toggle="collapse" data-target="#Clustering">Clustering Algorithms</button>
-            </div>
-            <div class="col-md-11 collapse" id="Clustering">
-                    <a class="ProjectLink" href="https://github.com/vikhyatgupta/clustering-algorithms" target="_blank"><p class="ProjectData">- Implemented data mining algorithms - k-Means, k-Harmonic Means using Java Swing</p></a>
-                    <a class="ProjectLink" href="https://github.com/vikhyatgupta/clustering-algorithms" target="_blank"><p class="ProjectData">- Developed data generation modules for two data sets (Random and Gaussian) that were used for testing the algorithms</p></a>
-            </div>             
-            <div class="col-sm-12">
-                    <button class="btn ProjectHeader center-block"  data-toggle="collapse" data-target="#Queue">Multi-Level Feedback Queue Scheduler</button>
-            </div>
-            <div class="col-md-11 collapse" id="Queue">
-                    <a class="ProjectLink" href="https://github.com/vikhyatgupta/multilevel-feedback-queue-scheduler" target="_blank"><p class="ProjectData">- Implemented three queues, two of them implemented Round Robin and one FCFS scheduling</p></a>
-            </div>
-            <div class="col-sm-12">
-                    <button class="btn ProjectHeader center-block"  data-toggle="collapse" data-target="#Battleship">Battleship</button>
-            </div>
-            <div class="collapse" id="Battleship">
-                <div class="col-md-11">
-                        <a class="ProjectLink" href="https://github.com/vikhyatgupta/battleship-game" target="_blank"><p class="ProjectData">- Designed the “Battleship” game using Java Swing that can be played on two computers on a   shared network</p></a>
-                </div>
-                <div class="col-md-11">
-                        <a class="ProjectLink" href="https://github.com/vikhyatgupta/battleship-game" target="_blank"><p class="ProjectData">- Implemented utilizing socket programming and passing location as an object over the    socket</p></a>
-                </div>
-            </div>
-        </div>                
-    </div>
     <hr>
-    <div class="row" id="contact">
-        <h3>vikhyatgupta@gmail.com</h3>
-        <h3>(229) 462-6603</h3>
-    </div>    
-</div>
-</body>    
+	<div id="skills" class="container-fluid">
+	  	<div>
+	  	  <h2 class="heading">Skills</h2>
+	  	</div>
+		<div class="row content">
+			<div class="col-sm-3">
+    			<h3 class="skills-heading"><strong>Programming Languages</strong></h3>
+    		</div>
+    		<div class="col-sm-9">
+	        	<div class="btn-group">
+  					<button type="button" class="btn btn-primary"><h4>C</h4></button>
+  					<button type="button" class="btn btn-primary" id="csharp"><h4>C#</h4></button>
+  					<button type="button" class="btn btn-primary" id="java"><h4>Java</h4></button>
+  					<button type="button" class="btn btn-primary" id="python"><h4>Python</h4></button>
+  					<button type="button" class="btn btn-primary" id="sql"><h4>SQL</h4></button>
+  					<button type="button" class="btn btn-primary" id="javascript"><h4>JavaScript</h4></button>
+  				</div>  				
+    		</div>
+	    </div>
+	    <br>	  	
+		<div class="row content">
+			<div class="col-sm-3">
+    			<h3 class="skills-heading"><strong>Big Data Technologies</strong></h3>
+    		</div>
+    		<div class="col-sm-9">
+	        	<div class="btn-group">
+  					<button type="button" class="btn btn-primary" id="hadoo"><h4>Hadoop</h4></button>
+  					<button type="button" class="btn btn-primary" id="mr"><h4>MapReduce</h4></button>
+  					<button type="button" class="btn btn-primary" id="sqoop"><h4>Sqoop</h4></button>
+  					<button type="button" class="btn btn-primary" id="pig"><h4>Pig</h4></button>
+  					<button type="button" class="btn btn-primary" id="hive"><h4>Hive</h4></button>
+  					<button type="button" class="btn btn-primary" id="oozie"><h4>Oozie</h4></button>
+  					<button type="button" class="btn btn-primary" id="hbase"><h4>Hbase</h4></button>
+  				</div>  				
+    		</div>
+	    </div>
+	    <br>	
+		<div class="row content">
+			<div class="col-sm-3">
+    			<h3 class="skills-heading"><strong>Databases</strong></h3>
+    		</div>
+    		<div class="col-sm-9">
+	        	<div class="btn-group">
+  					<button type="button" class="btn btn-primary" id="mssql"><h4>MS SQL Server</h4></button>
+  					<button type="button" class="btn btn-primary" id="mongo"><h4>MongoDB</h4></button>
+  					<button type="button" class="btn btn-primary" id="oracle"><h4>Oracle</h4></button>
+  					<button type="button" class="btn btn-primary"><h4>Postgresql</h4></button>
+  				</div>  				
+    		</div>
+	    </div>
+	    <br>	
+		<div class="row content">
+			<div class="col-sm-3">
+    			<h3 class="skills-heading"><strong>Web Technologies</strong></h3>
+    		</div>
+    		<div class="col-sm-9">
+	        	<div class="btn-group">
+  					<button type="button" class="btn btn-primary" id="dotnet"><h4>.NET</h4></button>
+  					<button type="button" class="btn btn-primary" id="meteor"><h4>MeteorJS</h4></button>
+  					<button type="button" class="btn btn-primary" id="kendo"><h4>Kendo UI</h4></button>
+  					<button type="button" class="btn btn-primary" id="html"><h4>HTML</h4></button>
+  					<button type="button" class="btn btn-primary" id="css"><h4>CSS</h4></button>
+  					<button type="button" class="btn btn-primary" id="bootstrap"><h4>Bootstrap</h4></button>
+  				</div>  				
+    		</div>
+	    </div>		    	      
+	</div>
+	<hr>
+  	<div id="experience" class="container-fluid">
+  	  <h2 class="heading text-center">Experience</h2>
+  	  <br>
+		<div class="row content">
+		    <div class="col-md-6 col-lg-3" data-toggle="collapse" data-target="#empower-desc">
+				<div class="panel well panel-default">
+				  <div class="panel-heading text-center">
+				  	<span> <img src="Images/Exp/empower-logo.png"/>
+				  		<h3><strong>Empower Finance</strong></h3>
+						<h4><i>Software Developer Intern</i></h4>
+					</span>
+				  </div>
+			
+				  <ul id="empower-desc" class="collapse empower">
+					<li>Implemented an efficient algorithm to load and search more than 20,000 financial institutions in MongoDB, which improved the speed by a factor of 10 - it produces the most accurate results among the other apps in the same category</li>
+					<br>
+					<li>Implemented a service for automatically converting the MasterCard biller directory into objects in order to populate the 	MongoDB - this enabled credit card payment in the app</li>
+					<br>
+					<li>Developed maintainable integrations tests to ensure proper functioning of the API and the service layer</li>
+					<br>
+					<li>Developed a demonstration account to showcase the flow of transactions to non-empower users</li>
+					<br>
+				  </ul>
+				</div>   
+		    </div>
+		    <div class="col-md-6 col-lg-3" data-toggle="collapse" data-target="#wrt-desc">
+				<div class="panel well panel-default">
+				  <div class="panel-heading text-center">
+				  	<span><img id="job-img" src="Images/Exp/white1.png"/>
+				  		<h3><strong>White Room Trading</strong></h3>
+						<h4><i>.NET Developer Intern</i></h4>
+					</span>
+				</div>
+				  <ul id="wrt-desc" class="collapse wrt">
+				  	<li>Assisted with the redevelopment of an ASP.NET Web Forms finance application into an ASP.NET MVC application for a medium sized funds management company. The application is used in production by over 1000 investors</li>
+				  	<br>
+				  	<li>Increased performance and compacted the code by eliminating view state and also by using AJAX queries that bundled several web page information in a single page</li>
+				  	<br>
+				  	<li>Used Kendo UI for the Views/UI</li>
+				  	<br>
+  				  </ul>
+				</div>   
+		    </div>
+		    <div class="col-md-6 col-lg-3" data-toggle="collapse" data-target="#a100-desc">
+				<div class="panel well panel-default">
+				  <div class="panel-heading text-center">
+				  	<span><img id="job-img" src="Images/Exp/a100-logo.png"/>
+				  		<h3><strong>Independent Software</strong></h3>
+						<h4><i>Apprentice</i></h4>
+					</span>
+				  </div>
+				  <ul id="a100-desc" class="collapse a100">
+				  	<p>Underwent training in Agile methodology, Full Stack development, UI/UX and DevOps</p>
+				  	<p><u><b>Project Xavier:</b><i>MeteorJS/MongoDB</i></u></p>
+				  	<li>Developed a Full Stack MeteorJS Web Application in an agile team environment for a client</li>
+				  	<br>
+				  	<li>Xavier enabled software companies to interact with developers and vice-versa</li>
+				  	<br>
+				  </ul>  	      
+				</div>   
+		    </div>
+		    <div class="col-md-6 col-lg-3" data-toggle="collapse" data-target="#capgemini-desc">
+				<div class="panel well panel-default">
+				  <div class="panel-heading text-center">
+				  	<span><img id="job-img" src="Images/Exp/capgemini.png"/>
+				  		<h3><strong>Capgemini</strong></h3>
+						<h4><i>Software Developer</i></h4>
+					</span>
+				  </div>
+				  <ul id="capgemini-desc" class="collapse cap">
+					<li>Underwent training in Java and developed several relevant projects</li>
+					<br>
+					<li>Handled a finance related PL/SQL project. Used Oracle Apps to design and update forms</li>
+					<br>
+					<li>Resolved various PL/SQL debugging issues dealing with retrieval of data</li>
+					<br>
+  				  </ul> 	      
+				</div>   
+		    </div>
+		</div>
+  	</div>
+  	<hr>
+	<div class="container-fluid" id="projects">
+	<h2 class="heading text-center">Academic Projects</h2>
+	 <br>
+	  <div class="panel-group content" id="accordion">
+	    <div class="panel panel-default">
+	      <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" data-target="#bankApp">
+	        <h4 class="panel-title">
+	          <a href="#bankApp" id="sub-heading">Banking Application<span style="font-style: italic; float: right">ASP.NET</span></a>
+	        </h4>
+	      </div>
+	      <div id="bankApp" class="panel-collapse collapse">
+	        <div class="panel-body">Developed online banking application using ASP.Net MVC5 (with proper Design Patterns) and Couchbase Memcached API</div>
+	      </div>
+	    </div>
+	    <div class="panel panel-default">
+	      <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" data-target="#bigdata">
+	        <h4 class="panel-title">
+	          <a href="#bigdata" id="sub-heading">Simplilearn Big Data Hadoop Proof of Concept<span style="font-style: italic; float: right">Hive/Pig</span></a>
+	        </h4>
+	      </div>
+	      <div id="bigdata" class="panel-collapse collapse">
+	        <div class="panel-body">Analyzed U.S. Department of Labor data, UN World Bank’s Gender-Statistics, UN World Bank’s World Development Indicators data using Hive and Pig to identify various motivators against varied parameters</div>
+	      </div>
+	    </div>
+	    <div class="panel panel-default">
+	      <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#solid" data-target="#solid">
+	        <h4 class="panel-title">
+	          <a id="sub-heading">Student Registration App/ Bus Management System<span style="font-style: italic; float: right">C#</span></a>
+	        </h4>
+	      </div>
+	      <div id="solid" class="panel-collapse collapse">
+	        <div class="panel-body">Designed and developed Windows Form Application, using S.O.L.I.D. principles for extensibility</div>
+	      </div>
+	    </div>
+
+	    <div class="panel panel-default">
+	      <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#ticTacToe" data-target="#ticTacToe">
+	        <h4 class="panel-title">
+	          <a id="sub-heading">Tic-Tac-Toe/ Minesweeper<span style="font-style: italic; float: right">Python</span></a>
+	        </h4>
+	      </div>
+	      <div id="ticTacToe" class="panel-collapse collapse">
+	        <div class="panel-body">Designed the Tic-Tac-Toe and the Minesweeper game along with the GUI</div>
+	      </div>
+	    </div>
+	    <div class="panel panel-default">
+	      <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" data-target="#clustering">
+	        <h4 class="panel-title">
+	          <a href="#clustering" id="sub-heading">Clustering Algorithms<span style="font-style: italic; float: right">Java</span></a>
+	        </h4>
+	      </div>
+	      <div id="clustering" class="panel-collapse collapse">
+	        <div class="panel-body">Implemented data mining algorithms - k-Means, k-Harmonic Means using Java Swing</div>
+	      </div>
+	    </div>
+	    <div class="panel panel-default">
+	      <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" data-target="#battleship">
+	        <h4 class="panel-title">
+	          <a href="#battleship" id="sub-heading">Battleship<span style="font-style: italic; float: right">Java</span></a>
+	        </h4>
+	      </div>
+	      <div id="battleship" class="panel-collapse collapse">
+	        <div class="panel-body">Designed the “Battleship” game using Java Swing and socket programming concepts to enable a game between two computers</div>
+	      </div>
+	    </div>	    	        
+	    <div class="panel panel-default">
+	      <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" data-target="#hadoop">
+	        <h4 class="panel-title">
+	          <a href="#hadoop" id="sub-heading">Data Mining from Semi-Structured Database Using Map-Reduce<span style="font-style: italic; float: right">Hadoop/MapReduce</span></a>
+	        </h4>
+	      </div>
+	      <div id="hadoop" class="panel-collapse collapse">
+	        <div class="panel-body">Applied various data mining operations on a Food Reviews database (stored on a DFS on a 3 cluster node)</div>
+	      </div>
+	    </div>
+	  </div> 
+	</div>
+	<hr>
+  	<div class="text-center" style="background-color: #D32F2F" id="contact">
+  		<br>
+  	  	<h3>vikhyatgupta@gmail.com</h3>
+  	  	<br>
+  	  	<h3>(229) 462-6603</h3>
+  	</div>
+</body>   
 </html>
 
